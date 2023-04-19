@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5820EA829E7F94700D8D5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EA729E7F94700D8D5AA /* AppDelegate.swift */; };
+		B5820EAA29E7F94700D8D5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EA929E7F94700D8D5AA /* SceneDelegate.swift */; };
+		B5820EAC29E7F94700D8D5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EAB29E7F94700D8D5AA /* ViewController.swift */; };
+		B5820EAF29E7F94700D8D5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5820EAD29E7F94700D8D5AA /* Main.storyboard */; };
+		B5820EB129E7F94A00D8D5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5820EB029E7F94A00D8D5AA /* Assets.xcassets */; };
+		B5820EB429E7F94A00D8D5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5820EB229E7F94A00D8D5AA /* LaunchScreen.storyboard */; };
+		B5820EBF29E7F94A00D8D5AA /* Fruit_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EBE29E7F94A00D8D5AA /* Fruit_MVVMTests.swift */; };
+		B5820EC929E7F94A00D8D5AA /* Fruit_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EC829E7F94A00D8D5AA /* Fruit_MVVMUITests.swift */; };
+		B5820ECB29E7F94A00D8D5AA /* Fruit_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820ECA29E7F94A00D8D5AA /* Fruit_MVVMUITestsLaunchTests.swift */; };
+		B5820ED929E7FBE600D8D5AA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820ED829E7FBE600D8D5AA /* TableViewController.swift */; };
+		B5820EDB29E7FD3A00D8D5AA /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EDA29E7FD3A00D8D5AA /* FirstTableViewCell.swift */; };
+		B5820EE229E80D7C00D8D5AA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EE129E80D7C00D8D5AA /* LoginViewModel.swift */; };
+		B5820EE429E8108E00D8D5AA /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EE329E8108E00D8D5AA /* LoginViewModelTests.swift */; };
+		B5820EE829E8147200D8D5AA /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EE729E8147200D8D5AA /* Fruit.swift */; };
+		B5820EEA29E814E800D8D5AA /* NetworkManagerClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EE929E814E800D8D5AA /* NetworkManagerClosure.swift */; };
+		B5820EEC29E81A6D00D8D5AA /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5820EEB29E81A6D00D8D5AA /* ListViewModel.swift */; };
+		B585C47429ED6963000FF106 /* MockingNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585C47329ED6963000FF106 /* MockingNetworkManager.swift */; };
+		B585C47729ED97A4000FF106 /* FruitFile.json in Resources */ = {isa = PBXBuildFile; fileRef = B5B195D529ED42DD0071BCC1 /* FruitFile.json */; };
+		B5B195B829EC1F5D0071BCC1 /* FakeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B195B729EC1F5D0071BCC1 /* FakeNetworkManager.swift */; };
+		B5B195BA29EC20030071BCC1 /* TableViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B195B929EC20030071BCC1 /* TableViewModelTest.swift */; };
+		B5B195D829ED42EC0071BCC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B195D729ED42EC0071BCC1 /* User.swift */; };
+		B5B2137C29EE993200A05610 /* LoginViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2137B29EE993200A05610 /* LoginViewControllerUITests.swift */; };
+		B5B2138129EEABA100A05610 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2138029EEABA100A05610 /* SecondStoryboard.storyboard */; };
+		B5B2138729EEAE1D00A05610 /* SBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2138629EEAE1D00A05610 /* SBViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5820EBB29E7F94A00D8D5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5820E9C29E7F94700D8D5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5820EA329E7F94700D8D5AA;
+			remoteInfo = "Fruit MVVM";
+		};
+		B5820EC529E7F94A00D8D5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5820E9C29E7F94700D8D5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5820EA329E7F94700D8D5AA;
+			remoteInfo = "Fruit MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5820EA429E7F94700D8D5AA /* Fruit MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5820EA729E7F94700D8D5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5820EA929E7F94700D8D5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5820EAB29E7F94700D8D5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5820EAE29E7F94700D8D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5820EB029E7F94A00D8D5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5820EB329E7F94A00D8D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5820EB529E7F94A00D8D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5820EBA29E7F94A00D8D5AA /* Fruit MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5820EBE29E7F94A00D8D5AA /* Fruit_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_MVVMTests.swift; sourceTree = "<group>"; };
+		B5820EC429E7F94A00D8D5AA /* Fruit MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5820EC829E7F94A00D8D5AA /* Fruit_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_MVVMUITests.swift; sourceTree = "<group>"; };
+		B5820ECA29E7F94A00D8D5AA /* Fruit_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5820ED829E7FBE600D8D5AA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B5820EDA29E7FD3A00D8D5AA /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		B5820EE129E80D7C00D8D5AA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B5820EE329E8108E00D8D5AA /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		B5820EE729E8147200D8D5AA /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		B5820EE929E814E800D8D5AA /* NetworkManagerClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerClosure.swift; sourceTree = "<group>"; };
+		B5820EEB29E81A6D00D8D5AA /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		B585C47329ED6963000FF106 /* MockingNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingNetworkManager.swift; sourceTree = "<group>"; };
+		B5B195B729EC1F5D0071BCC1 /* FakeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkManager.swift; sourceTree = "<group>"; };
+		B5B195B929EC20030071BCC1 /* TableViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelTest.swift; sourceTree = "<group>"; };
+		B5B195D529ED42DD0071BCC1 /* FruitFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FruitFile.json; sourceTree = "<group>"; };
+		B5B195D729ED42EC0071BCC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B5B2137B29EE993200A05610 /* LoginViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerUITests.swift; sourceTree = "<group>"; };
+		B5B2138029EEABA100A05610 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		B5B2138629EEAE1D00A05610 /* SBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5820EA129E7F94700D8D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EB729E7F94A00D8D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EC129E7F94A00D8D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5820E9B29E7F94700D8D5AA = {
+			isa = PBXGroup;
+			children = (
+				B5B2137F29EEAB8200A05610 /* SecondStoryboard */,
+				B5B195BB29EC25570071BCC1 /* Manager */,
+				B5820EE629E8144700D8D5AA /* API Model */,
+				B5820ED729E7FBAA00D8D5AA /* TableView */,
+				B5820EA629E7F94700D8D5AA /* Fruit MVVM */,
+				B5820EE029E80D6000D8D5AA /* ViewModel */,
+				B5820EBD29E7F94A00D8D5AA /* Fruit MVVMTests */,
+				B5820EC729E7F94A00D8D5AA /* Fruit MVVMUITests */,
+				B5820EA529E7F94700D8D5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5820EA529E7F94700D8D5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EA429E7F94700D8D5AA /* Fruit MVVM.app */,
+				B5820EBA29E7F94A00D8D5AA /* Fruit MVVMTests.xctest */,
+				B5820EC429E7F94A00D8D5AA /* Fruit MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5820EA629E7F94700D8D5AA /* Fruit MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EAB29E7F94700D8D5AA /* ViewController.swift */,
+				B5820EA729E7F94700D8D5AA /* AppDelegate.swift */,
+				B5820EA929E7F94700D8D5AA /* SceneDelegate.swift */,
+				B5820EAD29E7F94700D8D5AA /* Main.storyboard */,
+				B5820EB029E7F94A00D8D5AA /* Assets.xcassets */,
+				B5820EB229E7F94A00D8D5AA /* LaunchScreen.storyboard */,
+				B5820EB529E7F94A00D8D5AA /* Info.plist */,
+			);
+			path = "Fruit MVVM";
+			sourceTree = "<group>";
+		};
+		B5820EBD29E7F94A00D8D5AA /* Fruit MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				B585C47629ED837A000FF106 /* ViewModelTests */,
+				B585C47229ED6921000FF106 /* TestCases */,
+				B5820EBE29E7F94A00D8D5AA /* Fruit_MVVMTests.swift */,
+			);
+			path = "Fruit MVVMTests";
+			sourceTree = "<group>";
+		};
+		B5820EC729E7F94A00D8D5AA /* Fruit MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EC829E7F94A00D8D5AA /* Fruit_MVVMUITests.swift */,
+				B5820ECA29E7F94A00D8D5AA /* Fruit_MVVMUITestsLaunchTests.swift */,
+				B5B2137B29EE993200A05610 /* LoginViewControllerUITests.swift */,
+			);
+			path = "Fruit MVVMUITests";
+			sourceTree = "<group>";
+		};
+		B5820ED729E7FBAA00D8D5AA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B5820ED829E7FBE600D8D5AA /* TableViewController.swift */,
+				B5820EDA29E7FD3A00D8D5AA /* FirstTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B5820EE029E80D6000D8D5AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EE129E80D7C00D8D5AA /* LoginViewModel.swift */,
+				B5820EEB29E81A6D00D8D5AA /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5820EE629E8144700D8D5AA /* API Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EE729E8147200D8D5AA /* Fruit.swift */,
+				B5B195D729ED42EC0071BCC1 /* User.swift */,
+			);
+			path = "API Model";
+			sourceTree = "<group>";
+		};
+		B585C47229ED6921000FF106 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				B5B195B729EC1F5D0071BCC1 /* FakeNetworkManager.swift */,
+				B585C47329ED6963000FF106 /* MockingNetworkManager.swift */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		B585C47629ED837A000FF106 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B195D529ED42DD0071BCC1 /* FruitFile.json */,
+				B5B195B929EC20030071BCC1 /* TableViewModelTest.swift */,
+				B5820EE329E8108E00D8D5AA /* LoginViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		B5B195BB29EC25570071BCC1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B5820EE929E814E800D8D5AA /* NetworkManagerClosure.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B5B2137F29EEAB8200A05610 /* SecondStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2138029EEABA100A05610 /* SecondStoryboard.storyboard */,
+				B5B2138629EEAE1D00A05610 /* SBViewController.swift */,
+			);
+			path = SecondStoryboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5820EA329E7F94700D8D5AA /* Fruit MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5820ECE29E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVM" */;
+			buildPhases = (
+				B5820EA029E7F94700D8D5AA /* Sources */,
+				B5820EA129E7F94700D8D5AA /* Frameworks */,
+				B5820EA229E7F94700D8D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fruit MVVM";
+			productName = "Fruit MVVM";
+			productReference = B5820EA429E7F94700D8D5AA /* Fruit MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5820EB929E7F94A00D8D5AA /* Fruit MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5820ED129E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVMTests" */;
+			buildPhases = (
+				B5820EB629E7F94A00D8D5AA /* Sources */,
+				B5820EB729E7F94A00D8D5AA /* Frameworks */,
+				B5820EB829E7F94A00D8D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5820EBC29E7F94A00D8D5AA /* PBXTargetDependency */,
+			);
+			name = "Fruit MVVMTests";
+			productName = "Fruit MVVMTests";
+			productReference = B5820EBA29E7F94A00D8D5AA /* Fruit MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5820EC329E7F94A00D8D5AA /* Fruit MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5820ED429E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVMUITests" */;
+			buildPhases = (
+				B5820EC029E7F94A00D8D5AA /* Sources */,
+				B5820EC129E7F94A00D8D5AA /* Frameworks */,
+				B5820EC229E7F94A00D8D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5820EC629E7F94A00D8D5AA /* PBXTargetDependency */,
+			);
+			name = "Fruit MVVMUITests";
+			productName = "Fruit MVVMUITests";
+			productReference = B5820EC429E7F94A00D8D5AA /* Fruit MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5820E9C29E7F94700D8D5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5820EA329E7F94700D8D5AA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5820EB929E7F94A00D8D5AA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5820EA329E7F94700D8D5AA;
+					};
+					B5820EC329E7F94A00D8D5AA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5820EA329E7F94700D8D5AA;
+					};
+				};
+			};
+			buildConfigurationList = B5820E9F29E7F94700D8D5AA /* Build configuration list for PBXProject "Fruit MVVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5820E9B29E7F94700D8D5AA;
+			productRefGroup = B5820EA529E7F94700D8D5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5820EA329E7F94700D8D5AA /* Fruit MVVM */,
+				B5820EB929E7F94A00D8D5AA /* Fruit MVVMTests */,
+				B5820EC329E7F94A00D8D5AA /* Fruit MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5820EA229E7F94700D8D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5820EB429E7F94A00D8D5AA /* LaunchScreen.storyboard in Resources */,
+				B5820EB129E7F94A00D8D5AA /* Assets.xcassets in Resources */,
+				B5820EAF29E7F94700D8D5AA /* Main.storyboard in Resources */,
+				B5B2138129EEABA100A05610 /* SecondStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EB829E7F94A00D8D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B585C47729ED97A4000FF106 /* FruitFile.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EC229E7F94A00D8D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5820EA029E7F94700D8D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5820EEA29E814E800D8D5AA /* NetworkManagerClosure.swift in Sources */,
+				B5820EAC29E7F94700D8D5AA /* ViewController.swift in Sources */,
+				B5820EA829E7F94700D8D5AA /* AppDelegate.swift in Sources */,
+				B5820EE229E80D7C00D8D5AA /* LoginViewModel.swift in Sources */,
+				B5820EDB29E7FD3A00D8D5AA /* FirstTableViewCell.swift in Sources */,
+				B5B2138729EEAE1D00A05610 /* SBViewController.swift in Sources */,
+				B5820EEC29E81A6D00D8D5AA /* ListViewModel.swift in Sources */,
+				B5820EE829E8147200D8D5AA /* Fruit.swift in Sources */,
+				B5B195D829ED42EC0071BCC1 /* User.swift in Sources */,
+				B5820EAA29E7F94700D8D5AA /* SceneDelegate.swift in Sources */,
+				B5820ED929E7FBE600D8D5AA /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EB629E7F94A00D8D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5820EE429E8108E00D8D5AA /* LoginViewModelTests.swift in Sources */,
+				B5820EBF29E7F94A00D8D5AA /* Fruit_MVVMTests.swift in Sources */,
+				B585C47429ED6963000FF106 /* MockingNetworkManager.swift in Sources */,
+				B5B195B829EC1F5D0071BCC1 /* FakeNetworkManager.swift in Sources */,
+				B5B195BA29EC20030071BCC1 /* TableViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5820EC029E7F94A00D8D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5820EC929E7F94A00D8D5AA /* Fruit_MVVMUITests.swift in Sources */,
+				B5820ECB29E7F94A00D8D5AA /* Fruit_MVVMUITestsLaunchTests.swift in Sources */,
+				B5B2137C29EE993200A05610 /* LoginViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5820EBC29E7F94A00D8D5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5820EA329E7F94700D8D5AA /* Fruit MVVM */;
+			targetProxy = B5820EBB29E7F94A00D8D5AA /* PBXContainerItemProxy */;
+		};
+		B5820EC629E7F94A00D8D5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5820EA329E7F94700D8D5AA /* Fruit MVVM */;
+			targetProxy = B5820EC529E7F94A00D8D5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5820EAD29E7F94700D8D5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5820EAE29E7F94700D8D5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5820EB229E7F94A00D8D5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5820EB329E7F94A00D8D5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5820ECC29E7F94A00D8D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5820ECD29E7F94A00D8D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5820ECF29E7F94A00D8D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fruit MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5820ED029E7F94A00D8D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fruit MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5820ED229E7F94A00D8D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruit MVVM";
+			};
+			name = Debug;
+		};
+		B5820ED329E7F94A00D8D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruit MVVM";
+			};
+			name = Release;
+		};
+		B5820ED529E7F94A00D8D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fruit MVVM";
+			};
+			name = Debug;
+		};
+		B5820ED629E7F94A00D8D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITC.Fruit-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fruit MVVM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5820E9F29E7F94700D8D5AA /* Build configuration list for PBXProject "Fruit MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5820ECC29E7F94A00D8D5AA /* Debug */,
+				B5820ECD29E7F94A00D8D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5820ECE29E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5820ECF29E7F94A00D8D5AA /* Debug */,
+				B5820ED029E7F94A00D8D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5820ED129E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5820ED229E7F94A00D8D5AA /* Debug */,
+				B5820ED329E7F94A00D8D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5820ED429E7F94A00D8D5AA /* Build configuration list for PBXNativeTarget "Fruit MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5820ED529E7F94A00D8D5AA /* Debug */,
+				B5820ED629E7F94A00D8D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5820E9C29E7F94700D8D5AA /* Project object */;
+}
